@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #v{
+            list-style-type: none;
+            margin: 40px;
+            padding: 10px;
+            background-color: lightblue;
+            width: 300px;
+            border: 1px double black;
+            background-clip: content-box;
+            /* border-style: double; */
+        }
+        #h{
+            list-style-type: none;
+            margin: 40px;
+            padding: 10px;
+            background-color: rgb(193, 187, 187);
+            width: 353.5px;
+            border: 1px double black;
+            display: flex;
+            background-clip: content-box;   
+        }
+        #v a{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+        }
+        #v a:hover{
+            background-color: yellow;
+            color: white;
+        }
+        #h a{
+            display: block;
+            text-decoration: none;
+            padding: 15px;
+        }
+        #h a:hover{
+            background-color: grey;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <table>
+        <tr>
+            <td>
+                <div>
+                    <h3 style="text-align: center;">Vertical Navigation Bar</h3>
+                    <ul id="v">
+                        <li class="v1"><a href="#">Home</a></li>
+                        <li class="v1"><a href="#">Java</a></li>
+                        <li class="v1"><a href="#">CSS</a></li>
+                        <li class="v1"><a href="#">HTML</a></li>
+                        <li class="v1"><a href="#">Bootstrap</a></li>
+                    </ul>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <h3 style="text-align: center;">Horizontal Navigation Bar</h3>
+                    <ul id="h">
+                        <li class="h1"><a href="#">Home</a></li>
+                        <li class="h1"><a href="#">Java</a></li>
+                        <li class="h1"><a href="#">CSS</a></li>
+                        <li class="h1"><a href="#">HTML</a></li>
+                        <li class="h1"><a href="#">Bootstrap</a></li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+    </center>
+    <!-- <h3>Vertical Navigation Bar</h3>
+    <ul id="v">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+    </ul> -->
+
+    <!-- <h3>Horizontal Navigation Bar</h3>
+    <ul id="h">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Java</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">Bootstrap</a></li>
+    </ul> -->
+</body>
+</html>

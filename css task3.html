@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .w1{
+            width: 500px;
+        }
+        .w2{
+            width: 350px;
+        }
+        .w3{
+            width: 180px;
+        }
+        table,tr,td,th{
+            /* border: 1px solid rgb(210, 205, 205); */
+            border-collapse: collapse;
+            padding: 5px;
+            height: 30px;
+        }
+        table{
+            border: 1px solid rgb(210, 205, 205);
+        }
+        /* td{
+            padding: 5px;
+        } */
+        /* tr{
+            height: 40px;
+        } */
+        #r1{
+            background-color: green;
+            color: white;
+        }
+        tr:nth-child(even){
+            background-color: rgb(210, 205, 205);
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <table>
+        <tr id="r1">
+            <td class="w1">Company</td>
+            <td class="w2">Contact</td>
+            <td class="w3">Country</td>
+        </tr>
+        <tr>
+            <td class="w1">Alfreds Futterkiste</td>
+            <td class="w2">Maria Anders</td>
+            <td class="w3">Germany</td>
+        </tr>
+        <tr>
+            <td class="w1">Berglunds snabbkop</td>
+            <td class="w2">Christina Berglund</td>
+            <td class="w3">Sweden</td>
+        </tr>
+        <tr>
+            <td class="w1">Centro commercial Moctezuma</td>
+            <td class="w2">Francisco Chang</td>
+            <td class="w3">Mexico</td>
+        </tr>
+        <tr>
+            <td class="w1">Ernst Handel</td>
+            <td class="w2">Roland Mendel</td>
+            <td class="w3">Austria</td>
+        </tr>
+        <tr>
+            <td class="w1">Island Trading</td>
+            <td class="w2">Helen Bennett</td>
+            <td class="w3">UK</td>
+        </tr>
+        <tr>
+            <td class="w1">Koniglich Essen</td>
+            <td class="w2">Philip Cramer</td>
+            <td class="w3">Germany</td>
+        </tr>
+        <tr>
+            <td class="w1">Laughing Bacchus Winecellars</td>
+            <td class="w2">Yoshi Tannamuri</td>
+            <td class="w3">Canada</td>
+        </tr>
+        <tr>
+            <td class="w1">Magazzini Alimentari Riuniti</td>
+            <td class="w2">Giovanni Rovelli</td>
+            <td class="w3">Italy</td>
+        </tr>
+    </table>
+    </center>
+    <!-- table>(tr>td.w*3)*9 -->
+</body>
+</html>
